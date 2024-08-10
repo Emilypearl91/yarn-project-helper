@@ -1,8 +1,7 @@
 <script>
   import "../app.css";
+ import Navbar from "../lib/components/Navbar.svelte";
 </script>
-<body class="bg-surface-500">
-  
 
+<Navbar></Navbar>
 <slot />
-</body>
