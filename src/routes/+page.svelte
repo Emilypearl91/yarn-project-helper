@@ -1,0 +1,1 @@
+<h1 class="text-secondary-500 h1">Hello custom theme!</h1>
