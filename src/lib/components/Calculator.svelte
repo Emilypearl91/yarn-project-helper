@@ -1,5 +1,4 @@
 <script>
-  // 
 let total = 0
 // function to calculate the total worth of the project
 const calculate = () => {
@@ -21,8 +20,8 @@ console.log(total);
 <section class="w-96 h-96 m-auto my-28 p-2 bg-tertiary-500 rounded text-center">
   <h1 class="h2 text-secondary-500">Calculate how much you project is worth!</h1>
   <div class="text-center">
-  <input type="number"  id="time" placeholder="hours it took" class="text-black m-2">
-  <input type="number" id="pay" placeholder="pay per hour" class="text-black m-2">
+  <input type="number"  id="time" placeholder="hours it took" class="text-black m-2" value="0">
+  <input type="number" id="pay" placeholder="pay per hour" class="text-black m-2" value="0">
   <p class="text-black">tax is 5%</p>
   </div>
   <button type="submit" class="btn btn-lg variant-filled-primary m-2" on:click={calculate}> submit</button>
