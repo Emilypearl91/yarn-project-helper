@@ -12,9 +12,10 @@ console.log(rowsCompleted);
 
   //use arrow function to decrease rows completed by 1
  const decreaseRow = () => {
-rowsCompleted -= 1
+  if (rowsCompleted >= 1 ) {
+rowsCompleted -= 1;
 // check that rows completed is decreased by 1
-console.log(rowsCompleted);
+console.log(rowsCompleted);}
   };
   //reset the counter to 0
  const resetCounter = () => {
